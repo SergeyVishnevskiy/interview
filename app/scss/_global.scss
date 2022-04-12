@@ -37,16 +37,6 @@ body {
     line-height: 36px;
 }
 
-.wrapper {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.main {
-    flex: 1 1 auto;
-}
-
 .accordion {
     &__btn {
         background-color: transparent;
