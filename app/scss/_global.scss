@@ -67,7 +67,7 @@ body {
             fill: $accent;
             margin-right: 10px;
             transition: all .2s;
-            transform: rotate(-180deg);
+            transform: rotate(0deg);
         }
 
         &:hover {
@@ -81,7 +81,7 @@ body {
 
     .accordion__btn--active {
         .accordion__btn-icon {
-            transform: rotate(0deg);
+            transform: rotate(-180deg);
             margin-top: 0px;
         }
     }
