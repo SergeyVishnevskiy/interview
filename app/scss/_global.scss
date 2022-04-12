@@ -27,13 +27,10 @@ body {
     font-size: 18px;
     line-height: 27px;
     font-weight: 700;
-
-    &--italic {
-        font-style: italic;
-    }
 }
 
 .blockquote {
+    font-style: italic;
     padding: 10px 20px;
     border-left: 2px solid $green;
     color: $green;
