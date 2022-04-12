@@ -3,6 +3,36 @@
 @import 'reset';
 @import 'global';
 
+.article {
+    padding: 60px 80px;
+    border: 1px solid rgba(219, 219, 219, 0.75);
 
+    &__title {
+        margin-bottom: 26px;
+    }
+
+    &__subtitle {
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        margin: 15px 0 25px;
+    }
+
+    &__blockquote {
+        margin: 15px 0;
+    }
+
+    .article__social {
+        padding: 20px 5px;
+        display: flex;
+        border-top: 1px solid rgba(47, 46, 46, .2);
+        border-bottom: 1px solid rgba(47, 46, 46, .2);
+    }
+
+    &__social-item + &__social-item {
+        margin-left: 30px;
+    }
+}
 
 @import 'media';
