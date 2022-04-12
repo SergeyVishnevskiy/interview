@@ -91,6 +91,12 @@
             font-size: 18px;
         }
     }
+
+    &__divider {
+        border: none;
+        border-top: 1px solid $accent;
+        margin: 15px 0;
+    }
 }
 
 @import 'media';
