@@ -31,7 +31,8 @@ body {
 
 .blockquote {
     padding: 10px 20px;
-    border-left: 3px solid rgb(185, 174, 128);
+    border-left: 3px solid $green;
+    color: $green;
     font-size: 24px;
     line-height: 36px;
 }
@@ -65,15 +66,15 @@ body {
             height: 24px;
             fill: $accent;
             margin-right: 10px;
-            transition: all .7s;
+            transition: all .2s;
             transform: rotate(-180deg);
         }
 
         &:hover {
-            color: $hover;
+            color: $green;
 
             .accordion__btn-icon {
-                fill: $hover;
+                fill: $green;
             }
         }
     }
