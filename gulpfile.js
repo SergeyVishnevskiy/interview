@@ -66,7 +66,6 @@ function watching() {
 
 function scripts() {
     return src([
-        'node_modules/jquery/dist/jquery.js',
         'app/js/main.js'
     ])
         .pipe(concat('main.min.js'))
