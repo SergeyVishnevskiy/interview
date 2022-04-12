@@ -33,6 +33,10 @@
     &__social-item + &__social-item {
         margin-left: 30px;
     }
+
+    &__accordion {
+        margin: 15px 0;
+    }
 }
 
 @import 'media';
