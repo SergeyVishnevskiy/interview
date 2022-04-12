@@ -56,9 +56,32 @@ body {
         color: $accent;
         cursor: pointer;
         transition: all .2s;
+        display: flex;
+        align-items: center;
+
+        &-icon {
+            margin-top: 3px;
+            width: 24px;
+            height: 24px;
+            fill: $accent;
+            margin-right: 10px;
+            transition: all .7s;
+            transform: rotate(-180deg);
+        }
 
         &:hover {
             color: $hover;
+
+            .accordion__btn-icon {
+                fill: $hover;
+            }
+        }
+    }
+
+    .accordion__btn--active {
+        .accordion__btn-icon {
+            transform: rotate(0deg);
+            margin-top: 0px;
         }
     }
 
