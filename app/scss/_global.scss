@@ -3,11 +3,16 @@ body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    line-height: 27px;
+    line-height: 28px;
     font-weight: 400;
     font-style: normal;
     color: $accent;
     min-height: 100vh;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -24,8 +29,8 @@ body {
 }
 
 .subtitle {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 28px;
     font-weight: 700;
 }
 
@@ -34,6 +39,6 @@ body {
     padding: 10px 20px;
     border-left: 2px solid $green;
     color: $green;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 28px;
 }

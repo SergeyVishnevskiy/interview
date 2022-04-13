@@ -22,21 +22,19 @@
         text-align: center;
     }
 
-    &__title {
-        margin-bottom: 26px;
-    }
-
-    &__subtitle {
-        margin-bottom: 15px;
-    }
-
-    &__text, &__text-italic, &__reading {
-        margin: 15px 0 25px;
+    &__title,
+    &__subtitle,
+    &__text,
+    &__text-italic,
+    &__blockquote,
+    &__figure {
+        margin-bottom: $mb;
     }
 
     &__reading {
         font-size: 16px;
         text-align: right;
+        margin-bottom: $mb;
     }
 
     &__text-italic {
@@ -44,37 +42,23 @@
         font-weight: 500;
     }
 
-    &__blockquote {
-        margin: 15px 0;
-    }
-
     &__inner {
         display: flex;
         justify-content: space-between;
-        grid-gap: 80px;
+        grid-gap: 70px;
     }
 
     &__inner-figure {
         flex: none;
         max-width: 30%;
     }
-    
-    &__inner-blockquote {
-        margin-bottom: 25px;
-        font-size: 18px;
-        line-height: 30px;
-    }
-
-    &__inner-text {
-        margin-bottom: 25px;
-        font-size: 16px;
-    }
 
     .article__social {
         padding: 20px 5px;
+        margin-bottom: $mb;
         display: flex;
-        border-top: 1px solid rgba(47, 46, 46, .2);
-        border-bottom: 1px solid rgba(47, 46, 46, .2);
+        border-top: 1px solid $accent;
+        border-bottom: 1px solid $accent;
 
         &-item {
             width: 36px;
@@ -115,7 +99,7 @@
     }
 
     &__author {
-        padding: 20px 0;
+        margin-bottom: $mb;
 
         &-title {
             font-size: 18px;
@@ -130,7 +114,7 @@
     &__divider {
         border: none;
         border-top: 1px solid $accent;
-        margin: 20px 0;
+        margin-bottom: $mb;
     }
 }
 
