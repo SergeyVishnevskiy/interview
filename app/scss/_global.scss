@@ -15,6 +15,15 @@ hr {
     padding: 0;
 }
 
+a {
+    color: $green;
+    transition: all .2s;
+
+    &:hover {
+        color: #04291f;
+    }
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -41,4 +50,8 @@ hr {
     color: $green;
     font-size: 20px;
     line-height: 28px;
+
+    &__edit {
+        color: $accent;
+    }
 }
