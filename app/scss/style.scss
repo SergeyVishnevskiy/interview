@@ -50,13 +50,10 @@
         &--img {
             grid-gap: 20px;
 
-            .article__figure {
-
-                .article__img {
-                    height: 100%;
-                    object-fit: cover;
-                    max-height: 320px;
-                }
+            .article__img {
+                height: 100%;
+                object-fit: cover;
+                max-height: 320px;
             }
         }
     }
@@ -64,6 +61,17 @@
     &__inner-figure {
         flex: none;
         max-width: 30%;
+    }
+
+    &__inner-img {
+        width: 100%;
+        max-width: 50%;
+
+        .article__img {
+            max-height: 500px;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
     .article__social {
