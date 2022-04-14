@@ -165,7 +165,9 @@
         line-height: 22px;
     }
 
-    .section {}
+    .blockquote {
+        font-size: 16px;
+    }
 
     .title {
         font-size: 22px;
@@ -176,5 +178,9 @@
         font-size: 16px;
     }
 
-    .article {}
+    .article {
+        &__reading {
+            font-size: 14px;
+        }
+    }
 }
