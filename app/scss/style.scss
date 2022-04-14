@@ -52,8 +52,9 @@
         margin-bottom: $mb;
     }
 
-    &__text--bold {
+    &__text--accent {
         font-weight: 700;
+        font-style: italic;
     }
 
     &__reading {
