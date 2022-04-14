@@ -1,39 +1,68 @@
 @media (max-width: 1025px) {
     .section {
-
+        padding: 20px 0;
     }
 
     .article {
+        padding: 40px;
+        border: none;
+    }
+}
 
+@media (max-width: 1000px) {
+    body {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .article {
+        &__title,
+        &__subtitle,
+        &__text,
+        &__text-italic,
+        &__blockquote,
+        &__figure,
+        &__reading,
+        .article__social,
+        &__author,
+        &__divider {
+            margin-bottom: $mb-tb;
+        }
     }
 }
 
 @media (max-width: 800px) {
-    .section {
-
+    .title {
+        font-size: 28px;
+        line-height: 36px;
     }
 
     .article {
-        
+        padding: 10px;
+
+        &__figcaption {
+            font-size: 12px;
+            line-height: 18px;
+        }
     }
 }
 
 @media (max-width: 400px) {
-    .section {
+    .section {}
 
-    }
-
-    .article {
-        
-    }
+    .article {}
 }
 
 @media (max-width: 350px) {
-    .section {
+    .section {}
 
-    }
-
-    .article {
-        
-    }
+    .article {}
 }
