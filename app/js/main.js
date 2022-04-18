@@ -1,4 +1,4 @@
-let url = encodeURIComponent('https://lizard-soft.com/stories/holub/');
+let url = encodeURIComponent('https://lizard-soft.com/stories/maksym/');
 let title = encodeURIComponent(document.title);
 title = title.replace(/\'/g, '%27');
 
