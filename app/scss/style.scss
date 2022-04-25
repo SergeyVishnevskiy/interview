@@ -101,7 +101,7 @@
         max-width: 47%;
 
         .article__img {
-            max-height: 500px;
+            max-height: 600px;
             height: 100%;
             object-fit: cover;
         }
@@ -169,10 +169,6 @@
         border: none;
         border-top: 1px solid $accent;
         margin-bottom: $mb;
-    }
-
-    u {
-        color: $green;
     }
 
     &__blockquote--preview {
