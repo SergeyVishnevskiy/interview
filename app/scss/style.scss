@@ -78,6 +78,16 @@
                 height: 320px;
             }
         }
+
+        &--big {
+            .article__figure {
+                max-width: 40%;
+            }
+
+            .article__inner-content {
+                max-width: 55%;
+            }
+        }
     }
 
     &__inner-figure {

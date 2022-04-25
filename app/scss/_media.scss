@@ -85,6 +85,19 @@
     }
 }
 
+@media (max-width: 750px) {
+    .article {
+        &__inner--big {
+            flex-direction: column;
+    
+            .article__figure,
+            .article__inner-content {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
 @media (max-width: 680px) {
     .title {
         font-size: 26px;
@@ -122,6 +135,8 @@
             &-content {
                 max-width: 100%;
             }
+
+            
         }
 
         &__inner-img {
