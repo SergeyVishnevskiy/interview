@@ -155,6 +155,10 @@
         .article__social {
             padding: 10px 5px;
         }
+
+        &__inner--vertical {
+            flex-direction: column-reverse;
+        }
     }
 }
 
